@@ -47,7 +47,7 @@ dotenv – For managing environment variables
 
 
 Clone the repository:
-git clone https://github.com/yourusername/langchain-pdf-chatbot.git
+git clone https://github.com/Aliseiger/langchain-pdf-chatbot.git
 cd langchain-pdf-chatbot
 
 
@@ -80,7 +80,6 @@ Then open the provided local URL in your browser.
 📦 langchain-pdf-chatbot
  ┣ 📄 main.py
  ┣ 📄 requirements.txt
- ┣ 📄 .env
  ┣ 📂 venv/
  ┣ 📄 README.md
 
@@ -97,4 +96,4 @@ pip install cryptography>=3.1
 Developed by Ali Mashaghi
 Student • Programmer • AI Developer
 
-Do you want me to make it sound more GitHub-professional (like with badges, emojis, and deployment section), or keep it minimal and clean for portfolio use?
+
