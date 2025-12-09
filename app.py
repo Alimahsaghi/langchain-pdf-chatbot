@@ -29,7 +29,7 @@ if uploaded_file:
     with st.spinner("Creating embeddings with Ollama... (first time may take a minute)"):
         embeddings = OllamaEmbeddings(
         model="nomic-embed-text",
-        base_url="http://localhost:11434")  # مطمئن شو Ollama همین پورت رو داره
+        base_url="http://localhost:11434")  
                     
         vectorstore = FAISS.from_documents(docs, embeddings)
     
@@ -69,3 +69,4 @@ if uploaded_file:
         for q, a in reversed(st.session_state.chat_history):
             st.markdown(f"**You:** {q}")
             st.markdown(f"**Bot:** {a}")
+
