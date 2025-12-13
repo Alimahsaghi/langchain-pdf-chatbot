@@ -47,7 +47,7 @@ dotenv – For managing environment variables
 
 
 Clone the repository:
-git clone https://github.com/Aliseiger/langchain-pdf-chatbot.git
+git clone https://github.com/Alimahsaghi/langchain-pdf-chatbot.git
 cd langchain-pdf-chatbot
 
 
